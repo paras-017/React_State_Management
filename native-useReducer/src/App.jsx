@@ -6,9 +6,9 @@ function UserForm() {
 const [state, dispatch] = useReducer((state,action)=>({
   ...state,...action     //we are combining state with whatever comes on the action
 }),{
-  first:'',
-  last:''
-})
+      first:'',
+      last:''
+    })
 
   return(
     <>
