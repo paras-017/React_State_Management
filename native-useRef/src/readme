@@ -1,0 +1,1 @@
+there was this other  way of storing state in a component called useRef.It is one  useRefmore way to associate state with a component  in React. The interesting thing about use ref,   though, is that when you change the value of a  reference, it doesn't actually cause a component  rerender. So that can be convenient in some cases.

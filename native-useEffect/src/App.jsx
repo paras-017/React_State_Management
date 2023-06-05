@@ -22,7 +22,7 @@ useEffect(()=>{
 
 function App() {
   const [names, setNames] = useState([])
-  const [selectedName, setSelectedName] = useState(null)
+  // const [selectedName, setSelectedName] = useState(null)
   const [selectedNameDetails, setSelectedNameDetails] = useState(null)
 
   useEffect(()=>{ 
